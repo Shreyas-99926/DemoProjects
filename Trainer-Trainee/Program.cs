@@ -73,8 +73,6 @@ u8.Duration = 25;
 m3.Units.Add(u8);
 
 
-
 Console.WriteLine($"The org name: {training.GetTrainingOrgName()}");
 Console.WriteLine($"Trainees count : {training.GetNoOfTrainees()}");
 Console.WriteLine($"Duration (Hrs): {training.GetTrainingDurationInHrs() / 60}");
-
